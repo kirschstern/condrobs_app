@@ -1,3 +1,5 @@
+/* general */
+
 body {
 	padding: 20px;
 }
@@ -79,4 +81,13 @@ form .submit_field {
 
 .content_wrapper .result_list ul li .result_content .clear {
 	clear: both;
+}
+
+
+/* mobile */
+
+@media screen and (max-width: 576px) {
+	.content_wrapper .result_list ul li {
+		height: 305px;
+	}
 }
